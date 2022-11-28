@@ -71,6 +71,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -125,6 +126,35 @@ margin: 0px 3px;
 border: 1px solid limegreen;
 border-radius: 10px;
 background-color: aliceblue;
+}
+
+.audiothing {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: flex;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+flex: 1;
+padding: 10px;
+}
+
+.mediacontent {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: 20px;
+
 }
 
 
